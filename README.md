@@ -21,7 +21,7 @@
 | user       | references | null; false, foreign_key: true |
 
 ### Association
-- belomgs_to :user
+- belongs_to :user
 - has_many :comments
 
 ## commentsテーブル
@@ -32,5 +32,5 @@
 | user      | references | null; false, foreign_key: true |
 
 ### Association
-- belomgs_to :user
-- belomgs_to :prototype
+- belongs_to :user
+- belongs_to :prototype
